@@ -45,7 +45,15 @@ main() {
 
 	install_fonts
 	install_theme
-	exit 1
+	
+  cat <<- EOF
+    [*] Copying vim and zsh RC files...
+  EOF
+
+  cp $DIR/.vimrc ~/
+  cp $DIR/.zshrc ~/
+  
+  exit 1
 }
 
 main

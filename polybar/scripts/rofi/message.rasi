@@ -8,6 +8,11 @@
 	font:				 	"Fantasque Sans Mono 10";
 }
 
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
 window {
     width:      			320px;
     padding:    			25px;
